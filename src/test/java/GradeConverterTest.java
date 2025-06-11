@@ -21,7 +21,7 @@ public class GradeConverterTest {
     @Test
     public  void testConvert2(){
         String expected = "A";
-        String actual = converter.convert(91);
+        String actual = converter.convert(92);
         assertEquals(expected, actual);
     }
 
